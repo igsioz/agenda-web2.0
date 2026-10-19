@@ -229,26 +229,26 @@ body {
 
 .calendar-event--trabajo,
 .saved-event--trabajo {
-  --event-color: #D97706;
-  --event-background: #FEF3C7;
+  --event-color: #C88B2A;
+  --event-background: #F7E9B5;
 }
 
 .calendar-event--personal,
 .saved-event--personal {
-  --event-color: #6B7280;
-  --event-background: #E5E7EB;
+  --event-color: #7A8396;
+  --event-background: #E9ECF2;
 }
 
 .calendar-event--estudio,
 .saved-event--estudio {
-  --event-color: #2563EB;
-  --event-background: #DBEAFE;
+  --event-color: #5D7CEB;
+  --event-background: #DDE8FF;
 }
 
 .calendar-event--ocio,
 .saved-event--ocio {
-  --event-color: #DC2626;
-  --event-background: #FEE2E2;
+  --event-color: #D26A6A;
+  --event-background: #F9DCDC;
 }
 
 .calendar-event__time {
@@ -348,8 +348,8 @@ body {
   padding: 5px 10px;
   border: 1px solid var(--event-color);
   border-radius: 999px;
-  color: #344054;
-  background-color: #FFFFFF;
+  color: #1F2937;
+  background-color: var(--event-background);
   font-size: 0.78rem;
   font-weight: 700;
 }
